@@ -3,11 +3,13 @@ plugins {
     id 'io.spring.dependency-management' version '1.0.11.RELEASE'
     id 'java'
     id 'war'
+    id "com.microsoft.azure.azurewebapp" version "1.2.0"
 }
 
 group = 'com.gw'
 version = '1.0'
 sourceCompatibility = '1.8'
+archivesBaseName ='app'
 
 repositories {
     mavenCentral()
